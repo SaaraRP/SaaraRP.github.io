@@ -1,0 +1,76 @@
+body{
+text-align: center;
+padding-left: 55px;
+color: rgb(32, 3, 59);
+font-size: 22px;
+}
+a:hover{
+    color: rgb(68, 202, 202);
+}
+.title {
+   padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: #000000 2px 2px;
+}
+
+a{
+text-decoration: none;
+    color: blueviolet;}
+    .planeta{
+        width: 100%;
+height: 100vh;
+background: none;
+
+    }
+    .plas{
+        width: 90%;
+height: 220vh;
+background: url(fondo1.avif) no-repeat center;
+background-size: cover;
+    }
+   .plan{
+    width: 90%;
+height: 100%;
+background: url(fondo1.avif) no-repeat center;
+background-size: cover;
+   }
+   .maq{
+    width: 90%;
+height: 200vh;
+background: url(fondo1.avif) no-repeat center;
+background-size: cover;
+   }
+   .rec{
+    width: 90%;
+height: 290vh;
+background: url(fondo1.avif) no-repeat center;
+background-size: cover;
+   }
+   .maq a{
+    color: rgb(81, 20, 138);
+   }
+   .maq a:hover{
+    color: rgb(32, 136, 136);
+   }
+   @media(max-width: 771px){.maq{
+    background: linear-gradient(90deg,#8de1e4, #924ba3);
+   }
+   .plas{
+    background: linear-gradient(90deg,#8de1e4, #924ba3);
+   }
+   .rec{
+    background: linear-gradient(90deg,#8de1e4, #924ba3);
+}
+.plan{
+    background: linear-gradient(90deg,#8de1e4, #924ba3);
+   }
+   body{
+    padding: 20px;
+   }
+}

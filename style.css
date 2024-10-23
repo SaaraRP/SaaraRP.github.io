@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    border: 0%;
+   padding: 0%;
+}
+
+body{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(242, 186, 247);
+    text-decoration: none;
+}
+#navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,#000000, #924ba3);
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    overflow: hidden
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+#navegacion a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+#navegacion a:hover{
+    color: rgb(47, 233, 171);
+    padding: 10vh;
+background-color: #000000;
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    padding-left: 20px;
+}
+header{
+    align-items: center;
+    align-items: center;
+}
+header{
+    height: 90vh ;
+    width: 100%;
+    background: url(arb.avif) no-repeat center;
+    background-size: cover;
+    padding-top: 5px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: #000000 2px 2px;
+}
+P{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.nosotros .vermas a{
+    color: #d894e7;
+}
+.vermas a:hover{
+text-decoration: none;
+color: aqua;
+background: none;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyecto{
+
+    justify-content: center;
+  align-items: center;
+ background-color: rgb(242, 186, 247);
+}
+
+.nombre{ 
+    align-items: center;
+}
+.box-container{
+display: flex;
+}
+
+.box-container .box{
+height: 25rem;
+width: 16rem;
+text-align: center;
+background: #924ba3;
+border-radius: 2rem;
+margin: 2rem;
+color: #000000;
+}
+.box-container .box img{
+height: 10rem;
+width: 16rem;
+text-align: center;
+border-radius: 5vh;
+font-size: 2rem;
+color: aliceblue;
+
+}
+
+.box-container .box h3{
+    color: #000000;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+}
+.box-container .box p {
+    font-size: 15;
+    padding: 0 15;
+}
+.nosotros{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 115vh;
+background-color: #4c1858;
+padding-block-end: 150px;
+
+}
+
+.contactanos{
+    background-color: #4c1858;
+    height: 130vh;
+}
+.contactanos a{
+    color: #d894e7;
+}
+.contactanos a:hover{
+    color: aqua;
+}
+.contactanos .l{
+    color: #fdfdfd;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.contactanos .title{
+margin-bottom: 0px;}
+section{
+    padding-top: 60px;
+}
+header .title{
+    padding-top: 100px;
+}
+
+p{
+    
+justify-content: center;
+display: flex;
+}
+.sabermas{
+    justify-content: center;
+    display: flex;
+ text-decoration: none;
+    background: #fdfdfd;
+}
+.sabermas a:hover{
+    color: #d104ff;
+}
+.agenda{
+   background-color:rgb(242, 186, 247);
+   height: 100vh;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.ag{
+    font-size: 25px;
+    color: #4c1858;
+}
+.agd{
+    font-size: 22;
+    display: flex;
+    flex-direction: column;
+    color: #4c1858;
+}
+.agenda .title{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:771px){
+body{
+    background-color: rgb(242, 186, 247);
+flex-direction: column;
+}
+#navegacion{
+    width: 90%;
+    height: 20%;
+    padding: 0%;
+}
+#navegacion a:hover{
+    padding: 0%;
+    background: none;
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+
+}
+.proyecto{
+    padding-top: 100px;
+    background: none;
+    height: 1300px;
+}
+.box-container{
+    
+    flex-direction: column;
+}
+.nosotros{
+    text-align: center;
+    width: 90%;
+    height: 100vh;
+    padding: 30px;
+    background: none;
+}
+.nosotros p{
+    color: #000000;
+}
+.agenda{
+    padding-top: 29%;
+height: 400px;
+padding-block-end: 700px;
+padding: 30px;
+
+}
+.contactanos{
+    width: 100%;
+    padding: 30px;
+    background: none;
+    padding-top: 300px;
+}
+.contactanos a{
+    color: #000000;
+}
+.contactanos a:hover{
+    color: #38b0c0;
+}
+.title{
+    font-size: 35px;
+}
+
+
+
+
+}

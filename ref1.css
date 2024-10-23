@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    width: 90%;
+    background: url(fondo2.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+   
+
+} 
+.noscontainer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center
+    
+}
+
+.noscontainer .nos{
+height: 31rem;
+width: 16rem;
+text-align: center;
+background: #cf91e2 ;
+border-radius: 2rem;
+margin: 2rem;
+color: #000000;
+padding: 10px;
+}
+.noscontainer .nos:hover{
+    background: none;
+   
+}
+a{ display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #2d0142;
+}
+a:hover{
+    color: rgb(93, 40, 177);
+}
+.title {
+    padding-top: 0%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 5px;
+     font-size: 40px;
+     color: aliceblue;
+     text-transform: uppercase;
+     text-shadow: #000000 2px 2px;
+ }
+ @media(max-width:771px){
+    body{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(90deg,#350968, #f4e8f7);
+    }
+    .noscontainer .nos{
+        height: 33rem;
+    }
+
+ }
